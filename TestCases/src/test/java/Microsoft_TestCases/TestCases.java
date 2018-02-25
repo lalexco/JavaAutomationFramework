@@ -14,7 +14,8 @@ public class TestCases {
 		  .ValidaTitulo("Microsoft")
 		  .DoClick(winHomePage.WindowsMenu)
 		  .AssertElement(winHomePage.JuegosMenu)
-		  .DoClick(winHomePage.JuegosMenu);
+		  .DoClick(winHomePage.JuegosMenu)
+		  .AssertElement(winHomePage.JuegosMenu);
 		  
 	  }
 	  @BeforeTest
