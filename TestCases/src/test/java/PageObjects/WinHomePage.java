@@ -18,6 +18,9 @@ public class WinHomePage extends BasePage{
     
     @FindBy(id="shellmenu_67")
     public WebElement JuegosMenu;    
+    
+    @FindBy(id="shellmenu_68")
+    public WebElement JuegosMenuTwo;   
         
     public WinHomePage ValidaTitulo(String ExpectedUrl) {
     	String DriverTitle = driver.getTitle();
