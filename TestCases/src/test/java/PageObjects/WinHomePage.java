@@ -28,7 +28,8 @@ public class WinHomePage extends BasePage{
     
     public WinHomePage DoClick(WebElement element) {
     	ClickElement(element);
-    	System.out.println("Test");
+    	System.out.println("Msg Changed");
+    	System.out.println("New Message");
     	return this;
     }
     
