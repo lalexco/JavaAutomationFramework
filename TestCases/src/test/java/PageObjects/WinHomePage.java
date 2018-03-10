@@ -16,26 +16,16 @@ public class WinHomePage extends BasePage{
     @FindBy(id="shellmenu_1")
     public WebElement WindowsMenu;
     
-    @FindBy(id="shellmenu_67")
-    public WebElement JuegosMenu;    
-    
-    @FindBy(id="shellmenu_68")
-    public WebElement JuegosMenuTwo;   
-    
-    @FindBy(id="shellmenu_69")
-    public WebElement JuegosMenuThree; 
-        
-    public WinHomePage ValidaTitulo(String ExpectedUrl) {
+
+    public WinHomePage ValidaTitulo(String ExpectedTitle) {
     	String DriverTitle = driver.getTitle();
-    	Assert.assertTrue(DriverTitle.contains(ExpectedUrl));
+    	Assert.assertTrue(DriverTitle.contains(ExpectedTitle));
     	System.out.println("El titulo es correcto: "+ DriverTitle);
     	return this;
     }
     
     public WinHomePage DoClick(WebElement element) {
     	ClickElement(element);
-    	System.out.println("Msg Changed");
-    	System.out.println("New Message");
     	return this;
     }
     

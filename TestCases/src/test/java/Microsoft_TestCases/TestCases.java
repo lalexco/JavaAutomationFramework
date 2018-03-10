@@ -10,12 +10,7 @@ public class TestCases {
 	  public void GameFlow() {
 		  
 		  winHomePage
-		  .GoTo()
-		  .ValidaTitulo("Microsoft")
-		  .DoClick(winHomePage.WindowsMenu)
-		  .AssertElement(winHomePage.JuegosMenu)
-		  .DoClick(winHomePage.JuegosMenu)
-		  .AssertElement(winHomePage.JuegosMenu);
+		  .GoTo();
 		  
 	  }
 	  @BeforeTest
