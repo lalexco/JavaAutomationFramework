@@ -6,8 +6,8 @@
       <class name="Microsoft_TestCases.TestCases">
         <methods>
           <include name="afterTest"/>
+          <include name="FlujoSupport"/>
           <include name="beforeTest"/>
-          <include name="GameFlow"/>
         </methods>
       </class> <!-- Microsoft_TestCases.TestCases -->
     </classes>

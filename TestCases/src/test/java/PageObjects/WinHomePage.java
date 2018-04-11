@@ -1,4 +1,5 @@
 package PageObjects;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -9,33 +10,24 @@ public class WinHomePage extends BasePage{
 
 	public WinHomePage()
 	{
-		super();
+		InitBrowser();
+		InitPageElements();
 	}
 		
 	
     @FindBy(id="shellmenu_1")
     public WebElement WindowsMenu;
     
-    @FindBy(id="shellmenu_67")
-    public WebElement JuegosMenu;    
-    
-    @FindBy(id="shellmenu_68")
-    public WebElement JuegosMenuTwo;   
-    
-    @FindBy(id="shellmenu_69")
-    public WebElement JuegosMenuThree; 
-        
-    public WinHomePage ValidaTitulo(String ExpectedUrl) {
-    	String DriverTitle = driver.getTitle();
-    	Assert.assertTrue(DriverTitle.contains(ExpectedUrl));
+
+    public WinHomePage ValidaTitulo(String ExpectedTitle) {
+    	String DriverTitle = _driver.getTitle();
+    	Assert.assertTrue(DriverTitle.contains(ExpectedTitle));
     	System.out.println("El titulo es correcto: "+ DriverTitle);
     	return this;
     }
     
     public WinHomePage DoClick(WebElement element) {
     	ClickElement(element);
-    	System.out.println("Msg Changed");
-    	System.out.println("New Message");
     	return this;
     }
     

@@ -107,10 +107,14 @@ public class BaseBrowser {
 		
 	}
 	
-	public BaseBrowser EnterText(WebElement element, String value)
+	public void Submit (WebElement element)
+	{
+		element.submit();
+	}
+	
+	public void EnterText(WebElement element, String value)
 	{
 		element.sendKeys(value);
-		return this;	
 	}
 
 }
