@@ -2,18 +2,18 @@ package Tecgurus.com.TestFramework;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class BasePage extends BaseBrowser {
-	protected WebDriver driver;
-	protected BasePage()
+public abstract class BasePage extends BaseBrowser {
+	public static WebDriver _driver;
+	
+	public  void InitBrowser()
 	{
-		InitBrowser();
-		PageFactory.initElements(driver,this);
-		
+		_driver = SetUpDriver("Chrome");
 	}
 	
-	private void InitBrowser()
+	protected void InitPageElements()
 	{
-		driver = SetUpDriver("Chrome");
+		PageFactory.initElements(_driver,this);	
+		
 	}
 	
 
