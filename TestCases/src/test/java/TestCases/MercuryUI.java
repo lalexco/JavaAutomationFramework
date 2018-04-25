@@ -3,7 +3,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import GenericMethods.GenericMethods;
 import PageObjects.FlightFinder;
 import PageObjects.HomePage;
@@ -208,6 +207,7 @@ public class MercuryUI {
 	  @Test
 	  public void LoginAndScheduleFlight_BackToHome() {
 
+
 		  GenericMethods generic = new GenericMethods();
 		  String RandomFirstName = generic.GenerateRandom(6);
 		  String RandomLastName = generic.GenerateRandom(6);
@@ -280,6 +280,7 @@ public class MercuryUI {
 			  
 		  generic.LoggerOutput(Logger);
 	  }
+	  
 	  @BeforeTest
 	  public void beforeTest() {
 		  homePage = new HomePage("Welcome: Mercury Tours");  
@@ -290,5 +291,7 @@ public class MercuryUI {
 
 	  @AfterTest
 	  public void afterTest() {
+		  homePage.EndDriver();
+		 
 	  }
 }

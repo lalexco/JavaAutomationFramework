@@ -16,5 +16,12 @@ public abstract class BasePage extends BaseBrowser {
 		
 	}
 	
+	protected void Quit()
+	{
+		_driver.close();
+		_driver.quit();
+		
+	}
+	
 
 }

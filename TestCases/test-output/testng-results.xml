@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15334" started-at="2018-04-25T01:16:04Z" finished-at="2018-04-25T01:16:19Z">
+  <suite name="Default suite" duration-ms="16376" started-at="2018-04-25T01:28:18Z" finished-at="2018-04-25T01:28:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15334" started-at="2018-04-25T01:16:04Z" finished-at="2018-04-25T01:16:19Z">
+    <test name="Default test" duration-ms="16376" started-at="2018-04-25T01:28:18Z" finished-at="2018-04-25T01:28:35Z">
       <class name="TestCases.MercuryUI">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="beforeTest" is-config="true" duration-ms="2629" started-at="2018-04-24T20:16:04Z" finished-at="2018-04-24T20:16:06Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="beforeTest" is-config="true" duration-ms="2394" started-at="2018-04-24T20:28:18Z" finished-at="2018-04-24T20:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="LoginAndScheduleFlight_BackToHome()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="LoginAndScheduleFlight_BackToHome" duration-ms="12676" started-at="2018-04-24T20:16:06Z" finished-at="2018-04-24T20:16:19Z">
+        <test-method status="PASS" signature="LoginAndScheduleFlight_BackToHome()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="LoginAndScheduleFlight_BackToHome" duration-ms="13208" started-at="2018-04-24T20:28:21Z" finished-at="2018-04-24T20:28:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAndScheduleFlight_BackToHome -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-24T20:16:19Z" finished-at="2018-04-24T20:16:19Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="afterTest" is-config="true" duration-ms="748" started-at="2018-04-24T20:28:34Z" finished-at="2018-04-24T20:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

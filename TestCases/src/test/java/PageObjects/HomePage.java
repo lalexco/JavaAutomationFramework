@@ -54,6 +54,13 @@ public class HomePage extends BasePage implements GenImplementation{
     	js.ExecutedJavaScript(jsScript);
     	return this;
     }
+    
+    public HomePage EndDriver()
+    {
+    	Quit();
+    	return this;
+    }
+
 
 	public void ValidateTitle() {
 		
