@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Microsoft_TestCases.TestCases">
+      <class name="TestCases.MercuryUI">
         <methods>
           <include name="afterTest"/>
-          <include name="FlujoSupport"/>
+          <include name="LoginAndScheduleFlight_BackToHome"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- Microsoft_TestCases.TestCases -->
+      </class> <!-- TestCases.MercuryUI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
