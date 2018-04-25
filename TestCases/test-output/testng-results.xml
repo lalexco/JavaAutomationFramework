@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35860" started-at="2018-03-27T00:53:11Z" finished-at="2018-03-27T00:53:47Z">
+  <suite name="Default suite" duration-ms="15334" started-at="2018-04-25T01:16:04Z" finished-at="2018-04-25T01:16:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35860" started-at="2018-03-27T00:53:11Z" finished-at="2018-03-27T00:53:47Z">
-      <class name="Microsoft_TestCases.TestCases">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Microsoft_TestCases.TestCases@d8f54a]" name="beforeTest" is-config="true" duration-ms="18242" started-at="2018-03-26T18:53:11Z" finished-at="2018-03-26T18:53:29Z">
+    <test name="Default test" duration-ms="15334" started-at="2018-04-25T01:16:04Z" finished-at="2018-04-25T01:16:19Z">
+      <class name="TestCases.MercuryUI">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="beforeTest" is-config="true" duration-ms="2629" started-at="2018-04-24T20:16:04Z" finished-at="2018-04-24T20:16:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="FlujoSupport()[pri:0, instance:Microsoft_TestCases.TestCases@d8f54a]" name="FlujoSupport" duration-ms="17567" started-at="2018-03-26T18:53:29Z" finished-at="2018-03-26T18:53:47Z">
+        <test-method status="PASS" signature="LoginAndScheduleFlight_BackToHome()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="LoginAndScheduleFlight_BackToHome" duration-ms="12676" started-at="2018-04-24T20:16:06Z" finished-at="2018-04-24T20:16:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FlujoSupport -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Microsoft_TestCases.TestCases@d8f54a]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-26T18:53:47Z" finished-at="2018-03-26T18:53:47Z">
+        </test-method> <!-- LoginAndScheduleFlight_BackToHome -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.MercuryUI@132ec19]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-24T20:16:19Z" finished-at="2018-04-24T20:16:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Microsoft_TestCases.TestCases -->
+      </class> <!-- TestCases.MercuryUI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
