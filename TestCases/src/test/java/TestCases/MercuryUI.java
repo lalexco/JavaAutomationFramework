@@ -55,7 +55,7 @@ public class MercuryUI {
 		  
 		  Assert.assertEquals(RegisterPage.GetUrl(), "http://newtours.demoaut.com/create_account_success.php");
 		  System.out.println("URL obtained is correct: " + RegisterPage.GetUrl());
-		  //Assert.assertEquals(registerPage.ElementManualSearch("Xpath", "//*[contains(.,' Dear "+RandomFirstName+" "+RandomLastName+",')]")," Dear "+RandomFirstName+" "+RandomLastName+",");
+		  Assert.assertEquals(registerPage.ElementManualSearch("Xpath", "//*[contains(.,' Dear "+RandomFirstName+" "+RandomLastName+",')]")," Dear "+RandomFirstName+" "+RandomLastName+",");
 
 		  String [] Logger = {RandomFirstName,RandomLastName,RandomUserName,RandomPhone,RandomAddress
 				  ,RandomCity,RandomState,RandomPostal,RandomEmail,RandomPassword,RandomConfirmationPsw};
